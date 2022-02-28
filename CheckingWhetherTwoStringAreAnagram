@@ -1,0 +1,25 @@
+package BaluyotCheckingWhetherTwoStringAreAnagram;
+
+public class CheckingWhetherTwoStringAreAnagram {
+
+  public static void main(String[] args) {
+   System.out.println("welcome to two string are anagram");
+   
+   String Anagram[] = {"Dusty","Night","Angel","Bored"};
+   String Means[] = {"Study","Thing","Glean","Robed"};
+   
+   
+   System.out.println("Anagram items!");
+   System.out.println(Anagram[0]);
+   System.out.println(Anagram[1]);
+   System.out.println(Anagram[2]);
+   System.out.println(Anagram[3]);
+   
+   System.out.println("Means items!");
+   System.out.println(Means[0]);
+   System.out.println(Means[1]);
+   System.out.println(Means[2]);
+   System.out.println(Means[3]);
+  }
+
+}
