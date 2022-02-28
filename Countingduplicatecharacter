@@ -1,0 +1,18 @@
+package BaluyotCountingduplicatecharacter;
+
+public class Countingduplicatecharacter {
+
+  public static void main(String[] args) {
+    System.out.println("Counting duplicate character");
+    
+    String Name[] = {"pirena","amihan","helena","danaya"};
+    String power[] = {"Fire","Air","Water","Land"};
+    
+    System.out.println("Name items");
+    System.out.println(Name[0]);
+    System.out.println(Name[1]);
+    System.out.println(Name[2]);
+    System.out.println(Name[3]);
+  } 
+
+}
