@@ -1,0 +1,58 @@
+package BaluyotCandyShop;
+
+public class CandyShop {
+
+ public static void main(String[] args) {
+   System.out.printIn("Welcome to Candy Shop");
+
+ // Creating string objects:
+  String Candy= new String (0.50, 12);
+  String Chips= new String (0.65, 12);
+  String Gum= new Product (0.45, 12);
+  String Cookies= new String (0.85, 12);
+
+
+
+ // Creating cash register object:
+  CashRegister CR = new CashRegister();
+
+
+          // For selection of item
+   int select= 0;
+
+do {
+
+select = getIntInput("\n To select an item, enter \n" + "1 forCandy\n"
+        + "2 for Chips\n"+ "3 for Gum\n"+ "4 for Cookies\n"+
+         "9 to exit \n");
+
+switch (select) { case 1:
+
+purchase (Candy, CR); break;
+
+case 2:
+
+purchase (Chips, CR);
+
+break;
+
+case 3:
+
+purchase (Gum, CR);
+
+break; case 4:
+
+purchase(Cookies, CR);
+
+break;
+
+case 9:
+
+break; default:
+
+System.out.println("Invalid Selection");
+  
+  }
+
+}
+ 
